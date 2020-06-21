@@ -1059,4 +1059,146 @@ document.write("<hr>");
 document.write("<hr>");
 //======Q1 Start
 
-document.write("<b>" + "1. Write a program that displays current date and time in your browser" + "</b>" + "<br><br>");
+document.write("<b>" + "1. Write a function that displays current date & time in your browser." + "</b>" + "<br><br>");
+
+
+
+function Time() {
+    var now = new Date() ;
+   
+    document.write("Current time: "+now) ;
+   }
+
+Time();
+
+
+
+
+
+//==============End Q1
+
+
+document.write("<hr>");
+//======Q2 Start
+
+document.write("<b>" + "2. Write a function that takes first & last name and then it greets the user using his full name." + "</b>" + "<br><br>");
+
+// function greet() {
+//     Fname = ' Rai '
+//     Lname = ' Geo '
+   
+//     alert("Welcome "+Fname+Lname) ;
+//    }
+
+// greet();
+
+
+
+//==============End Q2
+
+
+document.write("<hr>");
+//======Q3 Start
+
+document.write("<b>" + "3. Write a function that adds two numbers (input by user) and returns the sum of two numbers." + "</b>" + "<br><br>");
+
+// var num1 = Number(prompt("Enter First number"));
+// var num2 = Number(prompt("Enter Second number"));
+
+
+// function greet(num1,num2) {
+
+//     document.write(num1+num2) ;
+//    }
+
+// greet(num1,num2);
+
+
+
+
+
+//==============End Q3
+
+
+document.write("<hr>");
+//======Q4 Start
+
+document.write("<b>" + "4. Calculator: Write a function that takes three arguments num1, num2 & operator & compute the desired operation. Return and show the desired result in your browser" + "</b>" + "<br><br>");
+
+
+// var num1 = Number(prompt("Enter First number","5"));
+// var op = prompt("Enter operator","*");
+// var num2 = Number(prompt("Enter Second number","3"));
+
+
+// function Calculator(num1,num2) {
+
+//     if(op === '+'){
+//         document.write(num1+num2);
+//     }else if(op === '-'){
+//         document.write(num1-num2);
+//     }
+//     else if(op === '/'){
+//         document.write(num1/num2);
+//     }
+//     else if(op === '*'){
+//         document.write(num1*num2);
+//     }
+    
+//    }
+
+//    Calculator(num1,num2);
+
+
+
+
+
+
+//==============End Q4
+
+
+document.write("<hr>");
+//======Q5 Start
+
+document.write("<b>" + "5. Write a function that squares its argument" + "</b>" + "<br><br>");
+
+
+
+// function Square(num) {
+//     var num = 9;
+//     document.write(num*num) ;
+//    }
+
+//    Square(num);
+
+
+
+//==============End Q4
+
+
+document.write("<hr>");
+//======Q5 Start
+
+document.write("<b>" + "5. Write a function that squares its argument" + "</b>" + "<br><br>");
+
+
+
+
+
+//==============End Q13
+
+
+document.write("<hr>");
+//======Q14 Start
+
+document.write("<b>" + "14. The Geometrizer" + "</b>" + "<br><br>");
+
+
+
+// function Square(num) {
+//     var num = 9;
+//     document.write(num*num) ;
+//    }
+
+//    Square(num);
+

@@ -1106,12 +1106,12 @@ document.write("<b>" + "3. Write a function that adds two numbers (input by user
 // var num2 = Number(prompt("Enter Second number"));
 
 
-// function greet(num1,num2) {
+// function sum(num1,num2) {
 
 //     document.write(num1+num2) ;
 //    }
 
-// greet(num1,num2);
+// sum(num1,num2);
 
 
 
@@ -1164,22 +1164,231 @@ document.write("<b>" + "5. Write a function that squares its argument" + "</b>" 
 
 
 
-// function Square(num) {
-//     var num = 9;
-//     document.write(num*num) ;
-//    }
+function Square(num) {
+    var num = 9;
+    document.write(num*num) ;
+   }
 
-//    Square(num);
+   Square(num);
 
 
 
-//==============End Q4
+//==============End Q5
 
 
 document.write("<hr>");
-//======Q5 Start
+//======Q6 Start
 
-document.write("<b>" + "5. Write a function that squares its argument" + "</b>" + "<br><br>");
+document.write("<b>" + "6. Write a function that computes factorial of a number." + "</b>" + "<br><br>");
+
+
+function factorial(num) {
+    if (num < 0) 
+          return -1;
+    else if (num == 0) 
+        return 1;
+    else {
+        return (num * factorial(num - 1));
+    }
+  }
+
+  var f= factorial(5);
+
+  document.write("The factorial 5 is: "+f);
+
+
+
+//==============End Q6
+
+
+document.write("<hr>");
+//======Q7 Start
+
+document.write("<b>" + "7. Write a function that take start and end number as inputs & display counting in your browser." + "</b>" + "<br><br>");
+
+
+// var  CountingStrt = prompt("Enter starting number of counting :")
+// var  CountingEnd = prompt("Enter ending number of counting :")
+
+
+// function Counting() {
+//     for(i = CountingStrt; i <= CountingEnd ; i++ ){
+//         document.write([i]+" ");
+//     }
+    
+// }
+
+// Counting();
+
+
+
+//==============End Q6
+
+
+document.write("<hr>");
+//======Q7 Start
+
+document.write("<b>" + "8. Write a nested function that computes hypotenuse of a right angle triangle." + "</b>" + "<br><br>");
+
+// Hypotenuse2 = Base2 + Perpendicular2
+
+// Take base and perpendicular as inputs.
+// Outer function : calculateHypotenuse()
+// Inner function: calculateSquare()
+
+
+// function alculateHypotenuse() {
+    
+    
+//     function calculateSquare() {
+        
+    
+//     }
+    
+// }
+
+
+
+
+
+
+
+
+
+//==============End Q7
+
+
+document.write("<hr>");
+//======Q8 Start
+
+document.write("<b>" + "9. Write a function that calculates the area of a rectangle." + "</b>" + "<br><br>");
+
+// A = width * height
+//  Pass width and height in following manner:
+// i. Arguments as value
+// ii. Arguments as variables
+
+
+// function AreaOfRectangle() {
+//     var widthValue = 58;
+//     var heightValue = 44;
+
+//     var Area = widthValue*heightValue;
+//     document.write("Area of rectangle is: "+Area);
+    
+// }
+
+// AreaOfRectangle();
+
+
+
+
+
+
+
+
+
+
+
+
+
+//==============End Q8
+
+
+document.write("<hr>");
+//======Q9 Start
+
+document.write("<b>" + "10. Write a JavaScript function that checks whether a passed string is palindrome or not?" + "</b>" + "<br><br>");
+
+
+
+
+
+
+
+
+
+
+//==============End Q10
+
+
+document.write("<hr>");
+//======Q11 Start
+
+document.write("<b>" + "11. Write a JavaScript function that accepts a string as a parameter and converts the first letter of each word of the string in upper case " + "</b>" + "<br><br>");
+// var strNew = 'the quick brown fox';
+
+// function UppercaseOnly() {
+   
+//     //to uppercase
+//     var capital = strNew.toUpperCase("The Quick Brown Fox");
+
+//     document.write(capital);
+
+        
+// }
+
+// document.write("EXAMPLE STRING: "+strNew +"<br><br>");
+
+// UppercaseOnly();
+
+
+
+
+
+
+
+
+
+
+//==============End Q11
+
+
+document.write("<hr>");
+//======Q12 Start
+
+document.write("<b>" + "12. Write a JavaScript function that accepts a string as a parameter and find the longest word within the string. " + "</b>" + "<br><br>");
+
+// function findLongestWord(str) {
+//     var strSplit = str.split(' ');
+//     var longestWord = "";
+//     for(var i = 0; i < strSplit.length; i++){
+//       if(strSplit[i].length > longestWord){
+//       longestWord = strSplit[i].length;
+//        }
+//     }
+//     return longestWord;
+//   }
+
+// var l=   findLongestWord("The quick brown fox jumped over the lazy dog");
+// document.write(l);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//==============End Q12
+
+
+document.write("<hr>");
+//======Q13 Start
+
+document.write("<b>" + "13. Write a JavaScript function that accepts two arguments, a string and a letter and the function will count the number of occurrences of the specified letter within the string. Sample arguments : 'JSResourceS.com', 'o' " + "</b>" + "<br><br>");
+
+
+
+
+
+
 
 
 
@@ -1191,14 +1400,44 @@ document.write("<b>" + "5. Write a function that squares its argument" + "</b>" 
 document.write("<hr>");
 //======Q14 Start
 
-document.write("<b>" + "14. The Geometrizer" + "</b>" + "<br><br>");
+document.write("<b>" + "4. The Geometrizer Create 2 functions that calculate properties of a circle, using the definitions here" + "</b>" + "<br><br>");
 
 
 
-// function Square(num) {
-//     var num = 9;
-//     document.write(num*num) ;
-//    }
+// Create a function called calcCircumference:
+// • Pass the radius to the function.
+// • Calculate the circumference based on the radius, and output
+// "The circumference is NN".
+// Create a function called calcArea:
+// • Pass the radius to the function.
+// • Calculate the area based on the radius, and output "The area
+// is NN".
+// Circumference of circle = 2 πr
+// Area of circle  = πr2
 
-//    Square(num);
 
+//Circumference of circle
+
+// function calcCircumference(r) {
+    // var r = 34;
+//     var π = 3.14523;
+
+//     return (2*r*π);
+    
+// }
+
+//  var f= calcCircumference(22);
+// document.body.innerHTML="Circumference of circle Is L  "+f;
+
+
+
+// function Areaofcircle(r) {
+    
+//     var π = 3.14523;
+
+//     return (2*(r*r)*π);
+    
+// }
+
+//  var output = Areaofcircle(44);
+// document.body.innerHTML="Area of circle is :  "+output;
